@@ -57,7 +57,12 @@ public class MasterBrick extends Brick
         	//Vector[] speeds = { new Vector(-5 , 30) , new Vector( -2 , 30) , new Vector (2,30) , new Vector(5,30) };
         }
     }
-
+    
+    
+    @Override
+    public boolean strongHit(BreakoutState state, Ball ball) {
+    	return false;
+    }
 
 
     /**
