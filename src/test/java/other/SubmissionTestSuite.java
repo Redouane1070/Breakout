@@ -66,8 +66,6 @@ import breakout.walls.WestWall;
  * and conform to a certain signature.
  */
 @Timeout(5)
-@Tag("OGP")
-@Tag("OOP")
 public class SubmissionTestSuite
 {
     private static void assertIsSubtypeOf(Class<?> subtype, Class<?> supertype)
