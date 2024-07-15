@@ -4,6 +4,7 @@ package breakout.math;
  * LEGIT
  *
  * @invar | getLowerBound() <= getUpperBound()
+ * @immutable
  */
 public class Interval
 {
